@@ -11,7 +11,7 @@ Este repositório foi criado com o objetivo de centralizar e apresentar o conjun
 
 O ambiente completo (atividades integradas e o sistema de nutrição) está hospedado publicamente através do GitHub Pages.
 
-👉 **[Clique aqui para acessar o ambiente dos projetos](https://nicolasmarques18.github.io/Aps_2_Front_End/)**
+👉 **[Clique aqui para acessar o ambiente dos projetos][(https://nicolasmarques18.github.io/Aps_2_Front_End/)](https://nicolasmarques18.github.io/Atividades-Praticas-Supervisionadas---Front-End/)**
 
 ---
 
