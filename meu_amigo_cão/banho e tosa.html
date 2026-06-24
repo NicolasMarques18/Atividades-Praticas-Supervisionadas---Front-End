@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho e Tosa</title>
+</head>
+
+<body>
+
+    <p><a href="pet shop.html">Home</a></p>   
+    
+    <h1>Agendamento para banho e tosa</h1>
+
+    <h2>Faça seu agendamento com pelo menos 48 horas de antecedência</h2>
+
+    <fieldset>
+        <legend>Identificação do dono do animal</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite o nome:" size="70px"><br><br>
+
+        <label for="Endereço">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" placeholder="Digite o endereço:" size="80px"><br><br>
+
+        <label for="CEP">CEP:</label>
+        <input type="text" id="cep" name="cep" placeholder="XXXXX-XXX"><br><br>
+
+        <label for="Email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite o endereço de email:" size="90px"><br><br>
+        
+        <label for="Tel/Cel">Tel/Cel:</label>
+        <input type="tel" id="telefone-celular" name="telefone-celular" placeholder="99 99999-9999"><br><br>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Animal</legend>
+        <label for="nome-animal">Nome:</label>
+        <input type="text" id="nome-animal" name="nome-animal" placeholder="Digite o nome do animal:" size="35px"><br><br>
+
+        <label>Porte do cão:</label>
+        <input type="radio" name="porte" value="pequeno" checked> Pequeno
+        <input type="radio" name="porte" value="medio"> Médio
+        <input type="radio" name="porte" value="grande"> Grande
+        <br><br>
+
+        <label>Tipo de tosa:</label>
+        <select>
+        <option>Nenhuma</option>
+        <option>Higiênica</option>
+        <option>Completa</option>
+        </select><br><br>
+
+        <label>Observações:</label>
+        <textarea placeholder="Digite alguma informação do animal se necessário" cols="60" rows="2"></textarea>
+
+    </fieldset>
+
+    <fieldset>
+        <br>
+        <legend>Horário - Obs: Não atendemos aos domingos e às segundas-feiras</legend>
+
+        <label>Indique os dias da semana de sua preferência:</label><br><br>
+
+        <input type="checkbox" name="dias"> Terça-Feira
+        <input type="checkbox" name="dias"> Quarta-Feira
+        <input type="checkbox" name="dias"> Quinta-Feira
+        <input type="checkbox" name="dias"> Sexta-Feira
+        <input type="checkbox" name="dias"> Sábado<br><br>
+
+        <label>Primeira opção de horário:</label>
+        <input type="date"><br><br>
+
+        <label>Segunda opção de horário:</label>
+        <input type="date">
+
+  <br><br>
+</fieldset>
+
+<form action="obrigado.html" method="post">
+<button type="submit" >
+    Enviar
+</button>
+<form>
+
+</body>
+</html>
